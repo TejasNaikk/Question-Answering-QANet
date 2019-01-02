@@ -1,4 +1,4 @@
-QUESTION ANSWERING USING MODIFIED QANET
+#QUESTION ANSWERING USING MODIFIED QANET
 
 
 
@@ -24,9 +24,11 @@ QUESTION ANSWERING USING MODIFIED QANET
 To download and preprocess the data, run
 
 
-# download SQuAD and Glove
+## download SQuAD and Glove
 a) sh download.sh
-# preprocess the data
+
+
+## preprocess the data
 b) python config.py --mode prepro
 
 hyper parameters are stored in config.py. To debug/train/test/demo, run
@@ -34,6 +36,8 @@ hyper parameters are stored in config.py. To debug/train/test/demo, run
 c) python config.py --mode debug/train/test/demo
 
 d) The default directory for the tensorboard log file is `train/{model_name}/event`
+
+
 ## Tensorboard
 Run tensorboard for visualisation.
 
